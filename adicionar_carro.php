@@ -6,11 +6,11 @@ require 'GerenciadorCarros.php';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $marca = $_POST['marca'];
     $modelo = $_POST['modelo'];
-    $ano = $_POST['ano'];
+    $ano = $_POST['fabricante'];
     $cor = $_POST['cor'];
 
     // Cria um novo objeto Carro
-    $carro = new Carro($marca, $modelo, $ano, $cor);
+    $carro = new Carro($marca, $modelo, $fabricante, $cor);
 
     // Gerencia o CRUD usando GerenciadorCarros
     $gerenciadorCarros = new GerenciadorCarros();

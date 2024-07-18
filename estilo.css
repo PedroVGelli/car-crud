@@ -1,41 +1,66 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    background-color: #0f0f23; /* Azul escuro para um fundo CyberPunk */
+    color: #c7c7c7; /* Cinza claro para texto */
 }
 
 h1 {
     text-align: center;
+    color: #8bc9ff; /* Azul claro para título */
+    text-transform: uppercase; /* Transformação para maiúsculas */
+    letter-spacing: 2px; /* Espaçamento entre letras */
 }
-
+h2 {
+    color: #8bc9ff; /* Azul claro para título */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #8bc9ff; /* Linha inferior azul claro */
+    padding-bottom: 5px; /* Espaçamento abaixo da linha */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
 form {
     width: 300px;
     margin: 0 auto;
+    background-color: #1c1c2b; /* Fundo azul escuro para o formulário */
+    padding: 20px;
+    border-radius: 8px; /* Borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 label {
     display: inline-block;
     width: 80px;
+    color: #8bc9ff; /* Azul claro para labels */
 }
 
 input[type="text"], input[type="number"] {
     width: 200px;
     padding: 5px;
+    background-color: #1c1c2b; /* Fundo azul escuro para inputs */
+    color: #c7c7c7; /* Texto cinza claro */
+    border: 1px solid #8bc9ff; /* Borda azul claro */
 }
 
 input[type="submit"] {
     margin-top: 10px;
     padding: 5px 15px;
+    background-color: #8bc9ff; /* Azul claro para botão */
+    color: #0f0f23; /* Texto azul escuro */
+    border: none;
+    cursor: pointer;
 }
 
 #lista-carros {
     width: 80%;
     margin: 20px auto;
-    border: 1px solid #000;
+    border: 2px solid #8bc9ff; /* Borda azul claro e mais espessa */
     padding: 10px;
+    background-color: #1c1c2b; /* Fundo azul escuro */
 }
 
 .item-carro {
     padding: 10px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #4d4d7c; /* Borda azul um pouco mais escura */
 }
 
 .item-carro:last-child {
@@ -43,6 +68,6 @@ input[type="submit"] {
 }
 
 .botao-deletar {
-    color: red;
+    color: #ff708d; /* Rosa para o botão de deletar */
     cursor: pointer;
 }

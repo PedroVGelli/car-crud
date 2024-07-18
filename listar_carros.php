@@ -11,12 +11,12 @@ if (!empty($carros)) {
         echo "<div class='item-carro'>";
         echo "Marca: " . htmlspecialchars($carro['marca']) . "<br>";
         echo "Modelo: " . htmlspecialchars($carro['modelo']) . "<br>";
-        echo "Ano: " . htmlspecialchars($carro['ano']) . "<br>";
+        echo "Fabricante: " . htmlspecialchars($carro['fabricante']) . "<br>";
         echo "Cor: " . htmlspecialchars($carro['cor']) . "<br>";
         echo "<a class='botao-deletar' href='deletar_carro.php?indice={$indice}'>Deletar</a>";
         echo "</div>";
     }
 } else {
-    echo "<p>Nenhum carro encontrado.</p>";
+    echo "<p>Nenhum celular encontrado.</p>";
 }
 ?>

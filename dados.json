@@ -1,8 +1,14 @@
 [
     {
-        "marca": "citroen",
-        "modelo": "c3",
-        "ano": "2022",
-        "cor": "veremelha"
+        "marca": "Samsung",
+        "modelo": "Galaxy J4",
+        "fabricante": null,
+        "cor": "Preto"
+    },
+    {
+        "marca": "Asus",
+        "modelo": "VivoTab 8",
+        "fabricante": null,
+        "cor": "Cinza chumbo"
     }
 ]

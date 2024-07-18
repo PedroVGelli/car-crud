@@ -17,7 +17,7 @@ class GerenciadorCarros {
         $this->carros[] = [
             'marca' => $carro->getMarca(),
             'modelo' => $carro->getModelo(),
-            'ano' => $carro->getAno(),
+            'fabricante' => $carro->getfabricante(),
             'cor' => $carro->getCor()
         ];
         $this->salvarDados();

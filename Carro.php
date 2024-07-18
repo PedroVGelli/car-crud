@@ -3,14 +3,14 @@
 class Carro {
     private $marca;
     private $modelo;
-    private $ano;
+    private $fabricante;
     private $cor;
 
     // Construtor da classe
-    public function __construct($marca, $modelo, $ano, $cor) {
+    public function __construct($marca, $modelo, $fabricante, $cor) {
         $this->marca = $marca;
         $this->modelo = $modelo;
-        $this->ano = $ano;
+        $this->fabricante = $fabricante;
         $this->cor = $cor;
     }
 
@@ -23,8 +23,8 @@ class Carro {
         return $this->modelo;
     }
 
-    public function getAno() {
-        return $this->ano;
+    public function getfabricante() {
+        return $this->fabricante;
     }
 
     public function getCor() {
